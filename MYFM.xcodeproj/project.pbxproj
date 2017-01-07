@@ -17,6 +17,12 @@
 		04D293961E20D19600AF7A44 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */; };
 		04D293971E20D19600AF7A44 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293931E20D19600AF7A44 /* UIImage+XMGImage.m */; };
 		04D293981E20D19600AF7A44 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293951E20D19600AF7A44 /* UIView+XMGLayout.m */; };
+		04D2939B1E20F41700AF7A44 /* MYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2939A1E20F41700AF7A44 /* MYNavigationController.m */; };
+		04D2939E1E20F44000AF7A44 /* MYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2939D1E20F44000AF7A44 /* MYTabBarController.m */; };
+		04D293A11E20F50E00AF7A44 /* MYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A01E20F50E00AF7A44 /* MYTabBar.m */; };
+		04D293A41E20F52700AF7A44 /* MYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A31E20F52700AF7A44 /* MYNavigationBar.m */; };
+		04D293A71E20F54000AF7A44 /* MYMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A61E20F54000AF7A44 /* MYMiddleView.m */; };
+		04D293A91E20F55300AF7A44 /* MYMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D293A81E20F55300AF7A44 /* MYMiddleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,17 @@
 		04D293931E20D19600AF7A44 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
 		04D293941E20D19600AF7A44 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
 		04D293951E20D19600AF7A44 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		04D293991E20F41700AF7A44 /* MYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationController.h; sourceTree = "<group>"; };
+		04D2939A1E20F41700AF7A44 /* MYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationController.m; sourceTree = "<group>"; };
+		04D2939C1E20F44000AF7A44 /* MYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTabBarController.h; sourceTree = "<group>"; };
+		04D2939D1E20F44000AF7A44 /* MYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTabBarController.m; sourceTree = "<group>"; };
+		04D2939F1E20F50E00AF7A44 /* MYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTabBar.h; sourceTree = "<group>"; };
+		04D293A01E20F50E00AF7A44 /* MYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTabBar.m; sourceTree = "<group>"; };
+		04D293A21E20F52700AF7A44 /* MYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationBar.h; sourceTree = "<group>"; };
+		04D293A31E20F52700AF7A44 /* MYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationBar.m; sourceTree = "<group>"; };
+		04D293A51E20F54000AF7A44 /* MYMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMiddleView.h; sourceTree = "<group>"; };
+		04D293A61E20F54000AF7A44 /* MYMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMiddleView.m; sourceTree = "<group>"; };
+		04D293A81E20F55300AF7A44 /* MYMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +124,10 @@
 			children = (
 				04D293761E20CCD100AF7A44 /* ViewController.h */,
 				04D293771E20CCD100AF7A44 /* ViewController.m */,
+				04D293991E20F41700AF7A44 /* MYNavigationController.h */,
+				04D2939A1E20F41700AF7A44 /* MYNavigationController.m */,
+				04D2939C1E20F44000AF7A44 /* MYTabBarController.h */,
+				04D2939D1E20F44000AF7A44 /* MYTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +135,13 @@
 		04D293781E20CCD100AF7A44 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04D2939F1E20F50E00AF7A44 /* MYTabBar.h */,
+				04D293A01E20F50E00AF7A44 /* MYTabBar.m */,
+				04D293A21E20F52700AF7A44 /* MYNavigationBar.h */,
+				04D293A31E20F52700AF7A44 /* MYNavigationBar.m */,
+				04D293A51E20F54000AF7A44 /* MYMiddleView.h */,
+				04D293A61E20F54000AF7A44 /* MYMiddleView.m */,
+				04D293A81E20F55300AF7A44 /* MYMiddleView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +215,7 @@
 		04D293511E20C95700AF7A44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MY;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = baidu;
 				TargetAttributes = {
@@ -224,6 +253,7 @@
 				04D2936C1E20C95700AF7A44 /* LaunchScreen.storyboard in Resources */,
 				04D293691E20C95700AF7A44 /* Assets.xcassets in Resources */,
 				04D293671E20C95700AF7A44 /* Main.storyboard in Resources */,
+				04D293A91E20F55300AF7A44 /* MYMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,11 +265,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D2937F1E20CCD100AF7A44 /* ViewController.m in Sources */,
+				04D2939B1E20F41700AF7A44 /* MYNavigationController.m in Sources */,
 				04D293821E20CCD100AF7A44 /* main.m in Sources */,
+				04D293A11E20F50E00AF7A44 /* MYTabBar.m in Sources */,
 				04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */,
 				04D293971E20D19600AF7A44 /* UIImage+XMGImage.m in Sources */,
+				04D2939E1E20F44000AF7A44 /* MYTabBarController.m in Sources */,
 				04D293961E20D19600AF7A44 /* CALayer+PauseAimate.m in Sources */,
+				04D293A71E20F54000AF7A44 /* MYMiddleView.m in Sources */,
 				04D293981E20D19600AF7A44 /* UIView+XMGLayout.m in Sources */,
+				04D293A41E20F52700AF7A44 /* MYNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
