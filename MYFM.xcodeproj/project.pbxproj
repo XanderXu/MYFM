@@ -14,9 +14,9 @@
 		04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2937C1E20CCD100AF7A44 /* AppDelegate.m */; };
 		04D293811E20CCD100AF7A44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D2937D1E20CCD100AF7A44 /* Info.plist */; };
 		04D293821E20CCD100AF7A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2937E1E20CCD100AF7A44 /* main.m */; };
-		04D2938B1E20CCD800AF7A44 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293861E20CCD800AF7A44 /* CALayer+PauseAimate.m */; };
-		04D2938C1E20CCD800AF7A44 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293881E20CCD800AF7A44 /* UIImage+XMGImage.m */; };
-		04D2938D1E20CCD800AF7A44 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2938A1E20CCD800AF7A44 /* UIView+XMGLayout.m */; };
+		04D293961E20D19600AF7A44 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */; };
+		04D293971E20D19600AF7A44 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293931E20D19600AF7A44 /* UIImage+XMGImage.m */; };
+		04D293981E20D19600AF7A44 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293951E20D19600AF7A44 /* UIView+XMGLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		04D2937C1E20CCD100AF7A44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04D2937D1E20CCD100AF7A44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D2937E1E20CCD100AF7A44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04D293851E20CCD800AF7A44 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		04D293861E20CCD800AF7A44 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
-		04D293871E20CCD800AF7A44 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
-		04D293881E20CCD800AF7A44 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
-		04D293891E20CCD800AF7A44 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
-		04D2938A1E20CCD800AF7A44 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		04D293901E20D19600AF7A44 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		04D293921E20D19600AF7A44 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
+		04D293931E20D19600AF7A44 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
+		04D293941E20D19600AF7A44 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
+		04D293951E20D19600AF7A44 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,24 +141,25 @@
 		04D293831E20CCD800AF7A44 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				04D293841E20CCD800AF7A44 /* Category */,
+				04D2938F1E20D19600AF7A44 /* Category */,
 			);
 			name = BaseClasses;
 			path = ../../BaseClasses;
 			sourceTree = "<group>";
 		};
-		04D293841E20CCD800AF7A44 /* Category */ = {
+		04D2938F1E20D19600AF7A44 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				04D293851E20CCD800AF7A44 /* CALayer+PauseAimate.h */,
-				04D293861E20CCD800AF7A44 /* CALayer+PauseAimate.m */,
-				04D293871E20CCD800AF7A44 /* UIImage+XMGImage.h */,
-				04D293881E20CCD800AF7A44 /* UIImage+XMGImage.m */,
-				04D293891E20CCD800AF7A44 /* UIView+XMGLayout.h */,
-				04D2938A1E20CCD800AF7A44 /* UIView+XMGLayout.m */,
+				04D293901E20D19600AF7A44 /* CALayer+PauseAimate.h */,
+				04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */,
+				04D293921E20D19600AF7A44 /* UIImage+XMGImage.h */,
+				04D293931E20D19600AF7A44 /* UIImage+XMGImage.m */,
+				04D293941E20D19600AF7A44 /* UIView+XMGLayout.h */,
+				04D293951E20D19600AF7A44 /* UIView+XMGLayout.m */,
 			);
-			path = Category;
-			sourceTree = "<group>";
+			name = Category;
+			path = MYFM/Classes/Other/Category;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -233,12 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D2938C1E20CCD800AF7A44 /* UIImage+XMGImage.m in Sources */,
 				04D2937F1E20CCD100AF7A44 /* ViewController.m in Sources */,
-				04D2938B1E20CCD800AF7A44 /* CALayer+PauseAimate.m in Sources */,
 				04D293821E20CCD100AF7A44 /* main.m in Sources */,
 				04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */,
-				04D2938D1E20CCD800AF7A44 /* UIView+XMGLayout.m in Sources */,
+				04D293971E20D19600AF7A44 /* UIImage+XMGImage.m in Sources */,
+				04D293961E20D19600AF7A44 /* CALayer+PauseAimate.m in Sources */,
+				04D293981E20D19600AF7A44 /* UIView+XMGLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +357,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7448PDV238;
-				INFOPLIST_FILE = MYFM/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MYFM/Classes/Other/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaa.MYFM;
@@ -370,9 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7448PDV238;
-				INFOPLIST_FILE = MYFM/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MYFM/Classes/Other/System/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaa.MYFM;
