@@ -1,14 +1,14 @@
 //
-//  UIView+XMGLayout.h
+//  UIView+MYLayout.h
 //  喜马拉雅FM
 //
 //  Created by 王顺子 on 16/8/2.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Copyright © 2016年 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (XMGLayout)
+@interface UIView (MYLayout)
 
 @property (nonatomic, assign) CGFloat x;
 
