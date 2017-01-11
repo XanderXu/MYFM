@@ -10,4 +10,8 @@
 
 @interface MYTabBar : UITabBar
 
+/**
+ 点击中间按钮执行的代码块
+ */
+@property (copy, nonatomic) void(^middleClickBlock)(BOOL isPlaying);
 @end
