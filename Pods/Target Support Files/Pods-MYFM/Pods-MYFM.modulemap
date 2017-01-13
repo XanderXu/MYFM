@@ -1,0 +1,6 @@
+framework module Pods_MYFM {
+  umbrella header "Pods-MYFM-umbrella.h"
+
+  export *
+  module * { export * }
+}
