@@ -38,7 +38,7 @@
     [self popViewControllerAnimated:YES];
 }
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    //拦截第一个push的控制器,进行统一设置
+    //拦截每一个push的控制器,进行统一设置
     //过滤第一个根控制器
     if (self.childViewControllers.count > 0) {
         //统一设置返回按钮
@@ -47,12 +47,12 @@
     }
     //千万不要忘记写
     [super pushViewController:viewController animated:animated];
-    //判断哪些界面需要显示底部播放按钮
+    //判断哪些navigationController的子控制器界面需要显示底部播放按钮
     if (viewController.view.tag == 666) {
         viewController.view.tag = 888;
         //创建一个新的中间按钮
         MYMiddleView *middleView = [MYMiddleView middleView];
-        //各属性和首页的按钮保持一致
+        //各属性和tabBar的中间按钮保持一致
         middleView.middleClickBlock = [MYMiddleView shareInstance].middleClickBlock;
         middleView.isPlaying = [MYMiddleView shareInstance].isPlaying;
         middleView.middleImage = [MYMiddleView shareInstance].middleImage;

@@ -42,7 +42,7 @@
 //    self.middleView.frame = CGRectMake((kScreenWidth - width) * 0.5, (kScreenHeight - height), width, height);
 }
 - (void)setMiddleClickBlock:(void (^)(BOOL))middleClickBlock {
-    self.middleView.middleClickBlock = middleClickBlock;
+    self.middleView.middleClickBlock = middleClickBlock;//调用中间按钮懒加载
 }
 
 -(void)layoutSubviews {
@@ -69,7 +69,7 @@
     self.middleView.y = self.height - self.middleView.height;//下边平齐
 }
 -(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
-    //设置允许交互的区域
+    //设置允许交互的区域(整个tabBar的矩形区域可以响应,中间按钮比tabBar高出18,中间按钮距离中心33以内也响应)
     
     //1.转换点击的坐标点,从tabbar上,到中间按钮上
     CGPoint pointInMiddleBtn = [self convertPoint:point toView:self.middleView];

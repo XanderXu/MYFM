@@ -56,7 +56,7 @@
 -(void)setSelectedIndex:(NSUInteger)selectedIndex {
     [super setSelectedIndex:selectedIndex];
     UIViewController *vc = self.childViewControllers[selectedIndex];
-    //判断哪些界面需要显示新的中间按钮
+    //判断哪些tabBarController的子界面(一般是导航控制器)需要显示新的中间按钮
     if (vc.view.tag == 666) {
         vc.view.tag = 888;
         //创建一个新的中间按钮

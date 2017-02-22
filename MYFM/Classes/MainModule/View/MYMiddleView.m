@@ -66,13 +66,13 @@ static MYMiddleView *_shareInstance;
         return;
     }
     _isPlaying = isPlaying;
-    if (isPlaying) {
+    if (isPlaying) {//移除红色播放标识,显示出下面的歌曲封面
         [self.playButton setImage:nil forState:UIControlStateNormal];
         [self.middleImageView.layer resumeAnimate];
     } else {
         UIImage *image = [UIImage imageNamed:@"tabbar_np_play"];
         [self.playButton setImage:image forState:UIControlStateNormal];
-        [self.middleImageView.layer resumeAnimate];
+        [self.middleImageView.layer pauseAnimate];
     }
 }
 -(void)setMiddleImage:(UIImage *)middleImage {
