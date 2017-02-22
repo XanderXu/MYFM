@@ -7,33 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5968C6CB09AC53993638B927663B62EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A0F47A5FCC87545C7E7C44434873D063 /* Pods-MYFM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0CCB141CC3DCA266CAC4237817389B /* Pods-MYFM-dummy.m */; };
-		B79361971DA73D00817CF43772842F18 /* Pods-MYFM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7527A5BA2D4808F03B05A5092CEFA3D /* Pods-MYFM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA918809D4730A976E0A5EAF217C21A /* Pods-MYFM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7527A5BA2D4808F03B05A5092CEFA3D /* Pods-MYFM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3942DF032B25FEDC991E13F5636D9F7F /* UIView+MYLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 856E21DE2E73BDE540137C7101A707A7 /* UIView+MYLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BA19BC4BD4E46EFD26E52D2B3A87FE /* UIImage+MYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFF38219F54FFB0306A49D180B4AC55 /* UIImage+MYImage.m */; };
+		5ED2A360A40F980C2583E879DDD3B644 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC13B9A9A993919DD9F8AF8AB787AA9 /* CALayer+PauseAimate.m */; };
+		61D33BF662485255E7FE1E7856568769 /* Pods-MYFM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0CCB141CC3DCA266CAC4237817389B /* Pods-MYFM-dummy.m */; };
+		6AACE74C1D8D5DCEE4335B0D9A5E4BC5 /* MYFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A16CCFC317EB87B472499B3781477BC /* MYFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		792BB0841E9B7C918B2F3B183290BD05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9F3F7E5F33F72A0AD9401AC8BBCB34F8 /* UIView+MYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B83E88E9AF2EFF7D99BDE7EFEF649182 /* UIView+MYLayout.m */; };
+		A5E5EF8730A104572D0CB9F6B513A1C8 /* MYFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6CE372696210BB3C4DEC265C11038 /* MYFMBase-dummy.m */; };
+		C25967EE9846EE4C0F09E49136AEFBB7 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD6D04AC038D5FC12E9BA85B49C176E /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4172234D4233FECADA627B6CFF81A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DB8AC5A2BEA00B1A6EA25FC38A7CA23A /* UIImage+MYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C20652F6774B2F282E7752AC69685AE7 /* UIImage+MYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAEE7F9F35540A54619873B62F2642BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFFA984DC403C5639E46BE3F9CF9DED;
+			remoteInfo = MYFMBase;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		048BA13A1BA2425747298970FF699B51 /* Pods-MYFM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYFM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06F92974E799F3DE97BA6A0386437629 /* MYFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYFMBase.xcconfig; sourceTree = "<group>"; };
 		23F73391F663B32268B136BF39E35527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A574BEAD09C1B51371EF55EC52A75F /* Pods-MYFM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYFM-resources.sh"; sourceTree = "<group>"; };
 		280709A308CFCAF58606B3C71B717D38 /* Pods-MYFM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYFM-frameworks.sh"; sourceTree = "<group>"; };
+		2A16CCFC317EB87B472499B3781477BC /* MYFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYFMBase-umbrella.h"; sourceTree = "<group>"; };
+		2BD6D04AC038D5FC12E9BA85B49C176E /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
 		4193D2BACE3F5E0A63463891337CFCCE /* Pods-MYFM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MYFM.modulemap"; sourceTree = "<group>"; };
+		482E01C4B87E9EF4D61F81C2496DB751 /* MYFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MYFMBase.modulemap; sourceTree = "<group>"; };
 		5E4B80182953B39CF6EAA2EE0BEE0AAF /* Pods-MYFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYFM.release.xcconfig"; sourceTree = "<group>"; };
+		6B394B4D02E81DFF64008CC527F4A052 /* MYFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E6CE372696210BB3C4DEC265C11038 /* MYFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYFMBase-dummy.m"; sourceTree = "<group>"; };
 		83E568A610E6AFA8BF8025EF8159EF97 /* Pods-MYFM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYFM-acknowledgements.plist"; sourceTree = "<group>"; };
+		856E21DE2E73BDE540137C7101A707A7 /* UIView+MYLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MYLayout.h"; sourceTree = "<group>"; };
+		8804ABD746E3DE8469435BB54B080144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9112B6D9F2E3B0D69B1F58305B53BE0 /* MYFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYFMBase-prefix.pch"; sourceTree = "<group>"; };
+		ADC13B9A9A993919DD9F8AF8AB787AA9 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
 		AE0CCB141CC3DCA266CAC4237817389B /* Pods-MYFM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYFM-dummy.m"; sourceTree = "<group>"; };
-		B29C1D05C405A8457D2A714D9A8C6F2F /* Pods_MYFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7527A5BA2D4808F03B05A5092CEFA3D /* Pods-MYFM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYFM-umbrella.h"; sourceTree = "<group>"; };
+		B83E88E9AF2EFF7D99BDE7EFEF649182 /* UIView+MYLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MYLayout.m"; sourceTree = "<group>"; };
+		C20652F6774B2F282E7752AC69685AE7 /* UIImage+MYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYImage.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D47DEE0B3FCFE988D20636C05C9145EB /* Pods_MYFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF38219F54FFB0306A49D180B4AC55 /* UIImage+MYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYImage.m"; sourceTree = "<group>"; };
 		F581FD25643F6C5B5332E99816EE8A79 /* Pods-MYFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYFM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88C2A6DEC625FBB959FA54839FFE8736 /* Frameworks */ = {
+		38E7120F81524FFA197C5F03B73E3B03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5968C6CB09AC53993638B927663B62EB /* Foundation.framework in Frameworks */,
+				792BB0841E9B7C918B2F3B183290BD05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD0A3A4ECC46253676CA654FFB5065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4172234D4233FECADA627B6CFF81A96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +98,20 @@
 			path = "Target Support Files/Pods-MYFM";
 			sourceTree = "<group>";
 		};
+		1605BCDE0C7795FB649458BB8EFFB35B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8804ABD746E3DE8469435BB54B080144 /* Info.plist */,
+				482E01C4B87E9EF4D61F81C2496DB751 /* MYFMBase.modulemap */,
+				06F92974E799F3DE97BA6A0386437629 /* MYFMBase.xcconfig */,
+				82E6CE372696210BB3C4DEC265C11038 /* MYFMBase-dummy.m */,
+				A9112B6D9F2E3B0D69B1F58305B53BE0 /* MYFMBase-prefix.pch */,
+				2A16CCFC317EB87B472499B3781477BC /* MYFMBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../MYFMGit/Pods/Target Support Files/MYFMBase";
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,22 +128,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6AB54887527622546831C9225084CECD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8E80D35409C3F593F650F5FEA843D95 /* MYFMBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7477649A7BB397D29487F06C4DDB4CEA /* MYFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				9448F67F943DFA3579C69019FDF63626 /* Classes */,
+			);
+			path = MYFMBase;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6AB54887527622546831C9225084CECD /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AF3EB39D9D4EE77121888738B1972CF6 /* Products */,
+				83A121F682FDAEB0EC057396D03E208C /* Products */,
 				40A323A6C59BA02956D1028FD30B285F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AF3EB39D9D4EE77121888738B1972CF6 /* Products */ = {
+		83A121F682FDAEB0EC057396D03E208C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B29C1D05C405A8457D2A714D9A8C6F2F /* Pods_MYFM.framework */,
+				6B394B4D02E81DFF64008CC527F4A052 /* MYFMBase.framework */,
+				D47DEE0B3FCFE988D20636C05C9145EB /* Pods_MYFM.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9448F67F943DFA3579C69019FDF63626 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BD6D04AC038D5FC12E9BA85B49C176E /* CALayer+PauseAimate.h */,
+				ADC13B9A9A993919DD9F8AF8AB787AA9 /* CALayer+PauseAimate.m */,
+				C20652F6774B2F282E7752AC69685AE7 /* UIImage+MYImage.h */,
+				DBFF38219F54FFB0306A49D180B4AC55 /* UIImage+MYImage.m */,
+				856E21DE2E73BDE540137C7101A707A7 /* UIView+MYLayout.h */,
+				B83E88E9AF2EFF7D99BDE7EFEF649182 /* UIView+MYLayout.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -100,35 +185,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F8E80D35409C3F593F650F5FEA843D95 /* MYFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				7477649A7BB397D29487F06C4DDB4CEA /* MYFMBase */,
+				1605BCDE0C7795FB649458BB8EFFB35B /* Support Files */,
+			);
+			name = MYFMBase;
+			path = "../../基础库/MYFMBase";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ADA5F826386DC4749C95F6E4EA35B276 /* Headers */ = {
+		450E95FEB24CF38DDE5CCC21910DF94A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79361971DA73D00817CF43772842F18 /* Pods-MYFM-umbrella.h in Headers */,
+				C25967EE9846EE4C0F09E49136AEFBB7 /* CALayer+PauseAimate.h in Headers */,
+				6AACE74C1D8D5DCEE4335B0D9A5E4BC5 /* MYFMBase-umbrella.h in Headers */,
+				DB8AC5A2BEA00B1A6EA25FC38A7CA23A /* UIImage+MYImage.h in Headers */,
+				3942DF032B25FEDC991E13F5636D9F7F /* UIView+MYLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFABE3D1F5DAB1D6739F58522FAFB59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA918809D4730A976E0A5EAF217C21A /* Pods-MYFM-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B463D851BABB56D306F12A4D14356FC0 /* Pods-MYFM */ = {
+		5EFFA984DC403C5639E46BE3F9CF9DED /* MYFMBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E26CEB59C40FD6B38582778B74D24B24 /* Build configuration list for PBXNativeTarget "Pods-MYFM" */;
+			buildConfigurationList = 9DCE5932C17EBF3BEE4B0487E3C99D8C /* Build configuration list for PBXNativeTarget "MYFMBase" */;
 			buildPhases = (
-				796F79DE44B5DE0305C1966006047467 /* Sources */,
-				88C2A6DEC625FBB959FA54839FFE8736 /* Frameworks */,
-				ADA5F826386DC4749C95F6E4EA35B276 /* Headers */,
+				C932FBD9251B9C72E0EB915AA1218E56 /* Sources */,
+				38E7120F81524FFA197C5F03B73E3B03 /* Frameworks */,
+				450E95FEB24CF38DDE5CCC21910DF94A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = MYFMBase;
+			productName = MYFMBase;
+			productReference = 6B394B4D02E81DFF64008CC527F4A052 /* MYFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEDBE23228E9A58C140349BB3F5AFF87 /* Pods-MYFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4259C71D043D680E755B6A5A7DA6F5 /* Build configuration list for PBXNativeTarget "Pods-MYFM" */;
+			buildPhases = (
+				3B706B53841AD5DAD890C646525C8DC8 /* Sources */,
+				DAD0A3A4ECC46253676CA654FFB5065A /* Frameworks */,
+				ABFABE3D1F5DAB1D6739F58522FAFB59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B60EDFEFBD550426F250A54B4D65629 /* PBXTargetDependency */,
+			);
 			name = "Pods-MYFM";
 			productName = "Pods-MYFM";
-			productReference = B29C1D05C405A8457D2A714D9A8C6F2F /* Pods_MYFM.framework */;
+			productReference = D47DEE0B3FCFE988D20636C05C9145EB /* Pods_MYFM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,27 +272,77 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AF3EB39D9D4EE77121888738B1972CF6 /* Products */;
+			productRefGroup = 83A121F682FDAEB0EC057396D03E208C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B463D851BABB56D306F12A4D14356FC0 /* Pods-MYFM */,
+				5EFFA984DC403C5639E46BE3F9CF9DED /* MYFMBase */,
+				EEDBE23228E9A58C140349BB3F5AFF87 /* Pods-MYFM */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		796F79DE44B5DE0305C1966006047467 /* Sources */ = {
+		3B706B53841AD5DAD890C646525C8DC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F47A5FCC87545C7E7C44434873D063 /* Pods-MYFM-dummy.m in Sources */,
+				61D33BF662485255E7FE1E7856568769 /* Pods-MYFM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932FBD9251B9C72E0EB915AA1218E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED2A360A40F980C2583E879DDD3B644 /* CALayer+PauseAimate.m in Sources */,
+				A5E5EF8730A104572D0CB9F6B513A1C8 /* MYFMBase-dummy.m in Sources */,
+				54BA19BC4BD4E46EFD26E52D2B3A87FE /* UIImage+MYImage.m in Sources */,
+				9F3F7E5F33F72A0AD9401AC8BBCB34F8 /* UIView+MYLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6B60EDFEFBD550426F250A54B4D65629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MYFMBase;
+			target = 5EFFA984DC403C5639E46BE3F9CF9DED /* MYFMBase */;
+			targetProxy = BAEE7F9F35540A54619873B62F2642BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0C356490B7870C409438745B269737D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F92974E799F3DE97BA6A0386437629 /* MYFMBase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MYFMBase/MYFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYFMBase/MYFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MYFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -211,6 +385,68 @@
 			};
 			name = Debug;
 		};
+		67FA681BCF53E53CD69C609D163E9858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F92974E799F3DE97BA6A0386437629 /* MYFMBase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MYFMBase/MYFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYFMBase/MYFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MYFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9018EC1925A097A80234E7A873A53658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F581FD25643F6C5B5332E99816EE8A79 /* Pods-MYFM.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MYFM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MYFM/Pods-MYFM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MYFM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -249,7 +485,7 @@
 			};
 			name = Release;
 		};
-		C12FA12D9A0DC4EE66E2DFFA8922D5EB /* Release */ = {
+		CB0E54EB62425EE169FD63C1125597B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E4B80182953B39CF6EAA2EE0BEE0AAF /* Pods-MYFM.release.xcconfig */;
 			buildSettings = {
@@ -282,39 +518,6 @@
 			};
 			name = Release;
 		};
-		C2CD5A073238F7E3CE8FE322A1A32EB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F581FD25643F6C5B5332E99816EE8A79 /* Pods-MYFM.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MYFM/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MYFM/Pods-MYFM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MYFM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,11 +530,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E26CEB59C40FD6B38582778B74D24B24 /* Build configuration list for PBXNativeTarget "Pods-MYFM" */ = {
+		5A4259C71D043D680E755B6A5A7DA6F5 /* Build configuration list for PBXNativeTarget "Pods-MYFM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CD5A073238F7E3CE8FE322A1A32EB0 /* Debug */,
-				C12FA12D9A0DC4EE66E2DFFA8922D5EB /* Release */,
+				9018EC1925A097A80234E7A873A53658 /* Debug */,
+				CB0E54EB62425EE169FD63C1125597B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DCE5932C17EBF3BEE4B0487E3C99D8C /* Build configuration list for PBXNativeTarget "MYFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FA681BCF53E53CD69C609D163E9858 /* Debug */,
+				0C356490B7870C409438745B269737D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

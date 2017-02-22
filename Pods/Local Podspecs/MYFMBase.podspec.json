@@ -1,0 +1,22 @@
+{
+  "name": "MYFMBase",
+  "version": "0.1.0",
+  "summary": "A short description of MYFMBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/517807635@qq.com/MYFMBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "517807635@qq.com": "xuhf@bairuitech.com"
+  },
+  "source": {
+    "git": "https://github.com/517807635@qq.com/MYFMBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MYFMBase/Classes/**/*"
+}
