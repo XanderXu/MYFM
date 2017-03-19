@@ -142,7 +142,6 @@
 		04D293791E20CCD100AF7A44 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				04D293831E20CCD800AF7A44 /* BaseClasses */,
 				04D2937A1E20CCD100AF7A44 /* System */,
 			);
 			path = Other;
@@ -157,14 +156,6 @@
 				04D2937E1E20CCD100AF7A44 /* main.m */,
 			);
 			path = System;
-			sourceTree = "<group>";
-		};
-		04D293831E20CCD800AF7A44 /* BaseClasses */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = BaseClasses;
-			path = ../../BaseClasses;
 			sourceTree = "<group>";
 		};
 		4559BA86E2DDD181E051765C /* Pods */ = {

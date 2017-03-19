@@ -1,9 +1,9 @@
 //
 //  Base.h
-//  XMGLY-Parts
+//  MYLY-Parts
 //
-//  Created by 王顺子 on 16/9/12.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by 许 on 16/9/12.
+//  Copyright © 2016年 许. All rights reserved.
 //
 
 #ifndef Base_h
@@ -17,20 +17,20 @@
 
 // 如果是调试模式(DEBUG 是调试模式下, 自带的宏)
 #ifdef DEBUG
-#define XMGLog(...) NSLog(__VA_ARGS__);
+#define MYLog(...) NSLog(__VA_ARGS__);
 #else
-#define XMGLog(...)
+#define MYLog(...)
 #endif
 
 // 打印调用函数的宏
-#define XMGLogFunc XMGLog(@"%s",__func__);
+#define MYLogFunc MYLog(@"%s",__func__);
 
 // 随机颜色
 #define Color(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
-#define XMGColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
-#define XMGAlphaColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
-#define XMGRandomColor XMGColor(arc4random_uniform(255.0), arc4random_uniform(255.0), arc4random_uniform(255.0))
-#define kCommonColor XMGColor(223, 223, 223)
+#define MYColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define MYAlphaColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define MYRandomColor MYColor(arc4random_uniform(255.0), arc4random_uniform(255.0), arc4random_uniform(255.0))
+#define kCommonColor MYColor(223, 223, 223)
 
 // 屏幕尺寸相关
 #define kScreenBounds [[UIScreen mainScreen] bounds]

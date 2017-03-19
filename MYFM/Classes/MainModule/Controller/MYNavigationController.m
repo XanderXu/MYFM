@@ -10,7 +10,7 @@
 #import "MYNavigationBar.h"
 #import "MYMiddleView.h"
 #import "UIView+MYLayout.h"
-
+#import "Base.h"
 @interface MYNavigationController ()<UIGestureRecognizerDelegate>
 
 @end

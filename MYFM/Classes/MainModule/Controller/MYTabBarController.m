@@ -13,7 +13,7 @@
 #import "MYMiddleView.h"
 #import "UIImage+MYImage.h"
 #import "UIView+MYLayout.h"
-
+#import "Base.h"
 @interface MYTabBarController ()
 
 @end
