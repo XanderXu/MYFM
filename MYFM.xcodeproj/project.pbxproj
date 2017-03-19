@@ -13,15 +13,13 @@
 		04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2937C1E20CCD100AF7A44 /* AppDelegate.m */; };
 		04D293811E20CCD100AF7A44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D2937D1E20CCD100AF7A44 /* Info.plist */; };
 		04D293821E20CCD100AF7A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2937E1E20CCD100AF7A44 /* main.m */; };
-		04D293961E20D19600AF7A44 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */; };
-		04D293971E20D19600AF7A44 /* UIImage+MYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293931E20D19600AF7A44 /* UIImage+MYImage.m */; };
-		04D293981E20D19600AF7A44 /* UIView+MYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293951E20D19600AF7A44 /* UIView+MYLayout.m */; };
 		04D2939B1E20F41700AF7A44 /* MYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2939A1E20F41700AF7A44 /* MYNavigationController.m */; };
 		04D2939E1E20F44000AF7A44 /* MYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2939D1E20F44000AF7A44 /* MYTabBarController.m */; };
 		04D293A11E20F50E00AF7A44 /* MYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A01E20F50E00AF7A44 /* MYTabBar.m */; };
 		04D293A41E20F52700AF7A44 /* MYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A31E20F52700AF7A44 /* MYNavigationBar.m */; };
 		04D293A71E20F54000AF7A44 /* MYMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A61E20F54000AF7A44 /* MYMiddleView.m */; };
 		04D293A91E20F55300AF7A44 /* MYMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D293A81E20F55300AF7A44 /* MYMiddleView.xib */; };
+		572CB2C6874579DC1243A28A /* Pods_MYFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA111928EC0625E77F1C46A /* Pods_MYFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +31,6 @@
 		04D2937C1E20CCD100AF7A44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04D2937D1E20CCD100AF7A44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D2937E1E20CCD100AF7A44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04D293901E20D19600AF7A44 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
-		04D293921E20D19600AF7A44 /* UIImage+MYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYImage.h"; sourceTree = "<group>"; };
-		04D293931E20D19600AF7A44 /* UIImage+MYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYImage.m"; sourceTree = "<group>"; };
-		04D293941E20D19600AF7A44 /* UIView+MYLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MYLayout.h"; sourceTree = "<group>"; };
-		04D293951E20D19600AF7A44 /* UIView+MYLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MYLayout.m"; sourceTree = "<group>"; };
 		04D293991E20F41700AF7A44 /* MYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationController.h; sourceTree = "<group>"; };
 		04D2939A1E20F41700AF7A44 /* MYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationController.m; sourceTree = "<group>"; };
 		04D2939C1E20F44000AF7A44 /* MYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTabBarController.h; sourceTree = "<group>"; };
@@ -50,6 +42,9 @@
 		04D293A51E20F54000AF7A44 /* MYMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMiddleView.h; sourceTree = "<group>"; };
 		04D293A61E20F54000AF7A44 /* MYMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMiddleView.m; sourceTree = "<group>"; };
 		04D293A81E20F55300AF7A44 /* MYMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYMiddleView.xib; sourceTree = "<group>"; };
+		62921DDCF79F2DE19014AC96 /* Pods-MYFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYFM/Pods-MYFM.release.xcconfig"; sourceTree = "<group>"; };
+		9FA111928EC0625E77F1C46A /* Pods_MYFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D4E9F4A160B17BA67A5FE /* Pods-MYFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYFM/Pods-MYFM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572CB2C6874579DC1243A28A /* Pods_MYFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +64,8 @@
 			children = (
 				04D2935B1E20C95700AF7A44 /* MYFM */,
 				04D2935A1E20C95700AF7A44 /* Products */,
+				4559BA86E2DDD181E051765C /* Pods */,
+				659DBDAFEC4AD3E571F5F8A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,25 +162,27 @@
 		04D293831E20CCD800AF7A44 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				04D2938F1E20D19600AF7A44 /* Category */,
 			);
 			name = BaseClasses;
 			path = ../../BaseClasses;
 			sourceTree = "<group>";
 		};
-		04D2938F1E20D19600AF7A44 /* Category */ = {
+		4559BA86E2DDD181E051765C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04D293901E20D19600AF7A44 /* CALayer+PauseAimate.h */,
-				04D293911E20D19600AF7A44 /* CALayer+PauseAimate.m */,
-				04D293921E20D19600AF7A44 /* UIImage+MYImage.h */,
-				04D293931E20D19600AF7A44 /* UIImage+MYImage.m */,
-				04D293941E20D19600AF7A44 /* UIView+MYLayout.h */,
-				04D293951E20D19600AF7A44 /* UIView+MYLayout.m */,
+				E45D4E9F4A160B17BA67A5FE /* Pods-MYFM.debug.xcconfig */,
+				62921DDCF79F2DE19014AC96 /* Pods-MYFM.release.xcconfig */,
 			);
-			name = Category;
-			path = MYFM/Classes/Other/Category;
-			sourceTree = SOURCE_ROOT;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		659DBDAFEC4AD3E571F5F8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA111928EC0625E77F1C46A /* Pods_MYFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -191,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D293701E20C95700AF7A44 /* Build configuration list for PBXNativeTarget "MYFM" */;
 			buildPhases = (
+				8FD1E72AF3FE66ED95C4AFE9 /* [CP] Check Pods Manifest.lock */,
 				04D293551E20C95700AF7A44 /* Sources */,
 				04D293561E20C95700AF7A44 /* Frameworks */,
 				04D293571E20C95700AF7A44 /* Resources */,
+				35F1430B286E2ECBA893A36C /* [CP] Embed Pods Frameworks */,
+				D12DD6D797009F06ADB23D93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +257,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35F1430B286E2ECBA893A36C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYFM/Pods-MYFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD1E72AF3FE66ED95C4AFE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D12DD6D797009F06ADB23D93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYFM/Pods-MYFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D293551E20C95700AF7A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,11 +314,8 @@
 				04D293821E20CCD100AF7A44 /* main.m in Sources */,
 				04D293A11E20F50E00AF7A44 /* MYTabBar.m in Sources */,
 				04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */,
-				04D293971E20D19600AF7A44 /* UIImage+MYImage.m in Sources */,
 				04D2939E1E20F44000AF7A44 /* MYTabBarController.m in Sources */,
-				04D293961E20D19600AF7A44 /* CALayer+PauseAimate.m in Sources */,
 				04D293A71E20F54000AF7A44 /* MYMiddleView.m in Sources */,
-				04D293981E20D19600AF7A44 /* UIView+MYLayout.m in Sources */,
 				04D293A41E20F52700AF7A44 /* MYNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +432,7 @@
 		};
 		04D293711E20C95700AF7A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45D4E9F4A160B17BA67A5FE /* Pods-MYFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -398,6 +447,7 @@
 		};
 		04D293721E20C95700AF7A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62921DDCF79F2DE19014AC96 /* Pods-MYFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

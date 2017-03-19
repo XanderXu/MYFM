@@ -12,6 +12,7 @@
 #import "MYNavigationBar.h"
 #import "MYMiddleView.h"
 #import "UIImage+MYImage.h"
+#import "UIView+MYLayout.h"
 
 @interface MYTabBarController ()
 
@@ -55,10 +56,21 @@
 -(void)setSelectedIndex:(NSUInteger)selectedIndex {
     [super setSelectedIndex:selectedIndex];
     UIViewController *vc = self.childViewControllers[selectedIndex];
-//    if (vc.view.tag == 666) {
-//        vc.view.tag = 888;
-//        MYMiddleView *middleView = [MYMiddleView middleView];
-//    }
+    //判断哪些tabBarController的子界面(一般是导航控制器)需要显示新的中间按钮
+    if (vc.view.tag == 666) {
+        vc.view.tag = 888;
+        //创建一个新的中间按钮
+        MYMiddleView *middleView = [MYMiddleView middleView];
+        //各属性和首页的单例按钮保持一致
+        middleView.middleClickBlock = [MYMiddleView shareInstance].middleClickBlock;
+        middleView.isPlaying = [MYMiddleView shareInstance].isPlaying;
+        middleView.middleImage = [MYMiddleView shareInstance].middleImage;
+        //中间按钮大小位置,x方向居中,y方向底部对齐
+        CGFloat width = 65;
+        CGFloat height = 65;
+        middleView.frame = CGRectMake((kScreenWidth - width) * 0.5, (kScreenHeight - height), width, height);
+        [vc.view addSubview:middleView];
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     MYTabBarController *rootVC = [MYTabBarController tabBarControllerWithAddChildVCsBlock:^(MYTabBarController *tabBarVC) {
-        [tabBarVC addChildVC:[UIViewController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_n" isRequiredNavController:YES];
+        [tabBarVC addChildVC:[UIViewController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
         [tabBarVC addChildVC:[UIViewController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
         [tabBarVC addChildVC:[UIViewController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
         [tabBarVC addChildVC:[UIViewController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
