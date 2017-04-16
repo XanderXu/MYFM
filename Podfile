@@ -5,4 +5,5 @@ use_frameworks!
 target 'MYFM' do
     pod 'MYFMBase/Category'
     pod 'MYFMBase/Base'
+    #pod 'MYFMBase', :subspecs => ['Base', 'Category']
 end
