@@ -34,7 +34,9 @@
     //设置样式,去除tabBar上面的黑线
     self.barStyle = UIBarStyleBlack;
     //设置背景图片
-    self.backgroundImage = [UIImage imageNamed:@"tabbar_bg"];
+    NSString *imagePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"tabbar_bg@2x.png" ofType:nil inDirectory:@"MYFMMain.bundle"];
+    self.backgroundImage = [UIImage imageWithContentsOfFile:imagePath];
+    //[UIImage imageNamed:@"tabbar_bg"];
     
 //    //添加一个按钮,先放在中间
 //    CGFloat width = 65;

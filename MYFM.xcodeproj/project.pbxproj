@@ -13,12 +13,6 @@
 		04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2937C1E20CCD100AF7A44 /* AppDelegate.m */; };
 		04D293811E20CCD100AF7A44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D2937D1E20CCD100AF7A44 /* Info.plist */; };
 		04D293821E20CCD100AF7A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2937E1E20CCD100AF7A44 /* main.m */; };
-		04D2939B1E20F41700AF7A44 /* MYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2939A1E20F41700AF7A44 /* MYNavigationController.m */; };
-		04D2939E1E20F44000AF7A44 /* MYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2939D1E20F44000AF7A44 /* MYTabBarController.m */; };
-		04D293A11E20F50E00AF7A44 /* MYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A01E20F50E00AF7A44 /* MYTabBar.m */; };
-		04D293A41E20F52700AF7A44 /* MYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A31E20F52700AF7A44 /* MYNavigationBar.m */; };
-		04D293A71E20F54000AF7A44 /* MYMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D293A61E20F54000AF7A44 /* MYMiddleView.m */; };
-		04D293A91E20F55300AF7A44 /* MYMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D293A81E20F55300AF7A44 /* MYMiddleView.xib */; };
 		572CB2C6874579DC1243A28A /* Pods_MYFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA111928EC0625E77F1C46A /* Pods_MYFM.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,17 +25,6 @@
 		04D2937C1E20CCD100AF7A44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04D2937D1E20CCD100AF7A44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D2937E1E20CCD100AF7A44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04D293991E20F41700AF7A44 /* MYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationController.h; sourceTree = "<group>"; };
-		04D2939A1E20F41700AF7A44 /* MYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationController.m; sourceTree = "<group>"; };
-		04D2939C1E20F44000AF7A44 /* MYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTabBarController.h; sourceTree = "<group>"; };
-		04D2939D1E20F44000AF7A44 /* MYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTabBarController.m; sourceTree = "<group>"; };
-		04D2939F1E20F50E00AF7A44 /* MYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTabBar.h; sourceTree = "<group>"; };
-		04D293A01E20F50E00AF7A44 /* MYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTabBar.m; sourceTree = "<group>"; };
-		04D293A21E20F52700AF7A44 /* MYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationBar.h; sourceTree = "<group>"; };
-		04D293A31E20F52700AF7A44 /* MYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationBar.m; sourceTree = "<group>"; };
-		04D293A51E20F54000AF7A44 /* MYMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMiddleView.h; sourceTree = "<group>"; };
-		04D293A61E20F54000AF7A44 /* MYMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMiddleView.m; sourceTree = "<group>"; };
-		04D293A81E20F55300AF7A44 /* MYMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYMiddleView.xib; sourceTree = "<group>"; };
 		62921DDCF79F2DE19014AC96 /* Pods-MYFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYFM/Pods-MYFM.release.xcconfig"; sourceTree = "<group>"; };
 		9FA111928EC0625E77F1C46A /* Pods_MYFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45D4E9F4A160B17BA67A5FE /* Pods-MYFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYFM/Pods-MYFM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,44 +82,9 @@
 		04D293731E20CCD100AF7A44 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				04D293741E20CCD100AF7A44 /* MainModule */,
 				04D293791E20CCD100AF7A44 /* Other */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		04D293741E20CCD100AF7A44 /* MainModule */ = {
-			isa = PBXGroup;
-			children = (
-				04D293751E20CCD100AF7A44 /* Controller */,
-				04D293781E20CCD100AF7A44 /* View */,
-			);
-			path = MainModule;
-			sourceTree = "<group>";
-		};
-		04D293751E20CCD100AF7A44 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				04D293991E20F41700AF7A44 /* MYNavigationController.h */,
-				04D2939A1E20F41700AF7A44 /* MYNavigationController.m */,
-				04D2939C1E20F44000AF7A44 /* MYTabBarController.h */,
-				04D2939D1E20F44000AF7A44 /* MYTabBarController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		04D293781E20CCD100AF7A44 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				04D2939F1E20F50E00AF7A44 /* MYTabBar.h */,
-				04D293A01E20F50E00AF7A44 /* MYTabBar.m */,
-				04D293A21E20F52700AF7A44 /* MYNavigationBar.h */,
-				04D293A31E20F52700AF7A44 /* MYNavigationBar.m */,
-				04D293A51E20F54000AF7A44 /* MYMiddleView.h */,
-				04D293A61E20F54000AF7A44 /* MYMiddleView.m */,
-				04D293A81E20F55300AF7A44 /* MYMiddleView.xib */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		04D293791E20CCD100AF7A44 /* Other */ = {
@@ -242,7 +190,6 @@
 				04D2936C1E20C95700AF7A44 /* LaunchScreen.storyboard in Resources */,
 				04D293691E20C95700AF7A44 /* Assets.xcassets in Resources */,
 				04D293671E20C95700AF7A44 /* Main.storyboard in Resources */,
-				04D293A91E20F55300AF7A44 /* MYMiddleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D12DD6D797009F06ADB23D93 /* [CP] Copy Pods Resources */ = {
@@ -301,13 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D2939B1E20F41700AF7A44 /* MYNavigationController.m in Sources */,
 				04D293821E20CCD100AF7A44 /* main.m in Sources */,
-				04D293A11E20F50E00AF7A44 /* MYTabBar.m in Sources */,
 				04D293801E20CCD100AF7A44 /* AppDelegate.m in Sources */,
-				04D2939E1E20F44000AF7A44 /* MYTabBarController.m in Sources */,
-				04D293A71E20F54000AF7A44 /* MYMiddleView.m in Sources */,
-				04D293A41E20F52700AF7A44 /* MYNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,45 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MYFMBase (0.4.3):
+    - MYFMBase/Base (= 0.4.3)
+    - MYFMBase/Category (= 0.4.3)
+    - MYFMBase/Network (= 0.4.3)
+    - MYFMBase/Tool (= 0.4.3)
   - MYFMBase/Base (0.4.3)
   - MYFMBase/Category (0.4.3)
+  - MYFMBase/Network (0.4.3):
+    - AFNetworking
+    - SDWebImage
+  - MYFMBase/Tool (0.4.3)
+  - MYFMMain (0.1.0):
+    - MYFMBase
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
-  - MYFMBase/Base
-  - MYFMBase/Category
+  - MYFMMain
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MYFMBase: 299009a80f68ab21c9fc9ba9e9853048d750b7c9
+  MYFMMain: b0331268e4bb1812670385e4fd185e6de5f7b49f
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 7fb032b15ba6e96bca85323f392d3416b266878d
+PODFILE CHECKSUM: cae507976abd8ed2d392caabbb8501c84c8fa7b4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

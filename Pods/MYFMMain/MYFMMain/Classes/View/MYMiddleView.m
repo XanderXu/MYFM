@@ -22,7 +22,7 @@ static MYMiddleView *_shareInstance;
     return _shareInstance;
 }
 + (instancetype)middleView {
-    MYMiddleView *middleView = [[NSBundle mainBundle] loadNibNamed:@"MYMiddleView" owner:nil options:nil].firstObject;
+    MYMiddleView *middleView = [[NSBundle bundleForClass:self] loadNibNamed:@"MYMiddleView" owner:nil options:nil].firstObject;
     return middleView;
 }
 - (void)awakeFromNib {
@@ -70,7 +70,8 @@ static MYMiddleView *_shareInstance;
         [self.playButton setImage:nil forState:UIControlStateNormal];
         [self.middleImageView.layer resumeAnimate];
     } else {
-        UIImage *image = [UIImage imageNamed:@"tabbar_np_play"];
+        NSString *imagePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"tabbar_np_play@2x.png" ofType:nil inDirectory:@"MYFMMain.bundle"];
+        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
         [self.playButton setImage:image forState:UIControlStateNormal];
         [self.middleImageView.layer pauseAnimate];
     }
