@@ -7,4 +7,5 @@ target 'MYFM' do
     #pod 'MYFMBase/Base'
     #pod 'MYFMBase', :subspecs => ['Base', 'Category']
     pod 'MYFMMain'
+    pod 'MYSegmentBar'
 end

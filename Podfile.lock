@@ -27,19 +27,22 @@ PODS:
   - MYFMBase/Tool (0.4.3)
   - MYFMMain (0.2.0):
     - MYFMBase
+  - MYSegmentBar (0.1.1)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - MYFMMain
+  - MYSegmentBar
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MYFMBase: 299009a80f68ab21c9fc9ba9e9853048d750b7c9
   MYFMMain: 5a09ef79157ab4b92b354f0b18d00c5e8431f8d3
+  MYSegmentBar: 6267af8e3d6cb37fb3c57c44e415152b814d2e02
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: cae507976abd8ed2d392caabbb8501c84c8fa7b4
+PODFILE CHECKSUM: 3a678bf09ef154055cd061f8dbfe719ca4d9861b
 
 COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module MYSegmentBar {
+  umbrella header "MYSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
