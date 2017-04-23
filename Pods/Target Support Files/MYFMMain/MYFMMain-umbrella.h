@@ -12,6 +12,7 @@
 
 #import "MYNavigationController.h"
 #import "MYTabBarController.h"
+#import "MainModuleAPI.h"
 #import "MYMiddleView.h"
 #import "MYNavigationBar.h"
 #import "MYTabBar.h"

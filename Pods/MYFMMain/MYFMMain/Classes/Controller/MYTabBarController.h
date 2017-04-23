@@ -19,7 +19,7 @@
 + (instancetype)shareInstance;
 
 /**
- 添加子控制器的block
+ 创建一个新的tabBarVC并添加子控制器
 
  @param addVCsBlock 添加子控制器代码
  @return MYTabBarController
