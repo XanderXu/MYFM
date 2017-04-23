@@ -23,6 +23,15 @@
 @property (nonatomic, strong) UIColor *indicatorColor;
 /** 下划线高 */
 @property (nonatomic, assign) CGFloat indicatorHeight;
-/** 下划线宽 */
+/** 下划线比btn多出的宽 */
 @property (nonatomic, assign) CGFloat indicatorExtraW;
+
+/**************链式设置**************/
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainSegmentBarBackColor)(UIColor *color);
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainItemNormalColor)(UIColor *color);
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainItemSelectColor)(UIColor *color);
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainItemFont)(UIFont *font);
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainIndicatorColor)(UIColor *color);
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainIndicatorHeight)(CGFloat height);
+@property (nonatomic, copy, readonly) MYSegmentBarConfig *(^chainIndicatorExtraW)(CGFloat extraW);
 @end

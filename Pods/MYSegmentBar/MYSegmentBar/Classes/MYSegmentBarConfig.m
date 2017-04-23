@@ -24,5 +24,47 @@
     return config;
     
 }
+-(MYSegmentBarConfig *(^)(UIColor *))chainSegmentBarBackColor {
+    return ^(UIColor *color){
+        self.segmentBarBackColor = color;
+        return self;
+    };
+}
 
+-(MYSegmentBarConfig *(^)(UIColor *))chainItemNormalColor {
+    return ^(UIColor *color){
+        self.itemNormalColor = color;
+        return self;
+    };
+}
+-(MYSegmentBarConfig *(^)(UIColor *))chainItemSelectColor {
+    return ^(UIColor *color){
+        self.itemSelectColor = color;
+        return self;
+    };
+}
+-(MYSegmentBarConfig *(^)(UIFont *))chainItemFont {
+    return ^(UIFont *font){
+        self.itemFont = font;
+        return self;
+    };
+}
+-(MYSegmentBarConfig *(^)(UIColor *))chainIndicatorColor {
+    return ^(UIColor *color){
+        self.indicatorColor = color;
+        return self;
+    };
+}
+-(MYSegmentBarConfig *(^)(CGFloat))chainIndicatorHeight {
+    return ^(CGFloat height) {
+        self.indicatorHeight = height;
+        return self;
+    };
+}
+-(MYSegmentBarConfig *(^)(CGFloat))chainIndicatorExtraW {
+    return ^(CGFloat extraW) {
+        self.indicatorExtraW = extraW;
+        return self;
+    };
+}
 @end
